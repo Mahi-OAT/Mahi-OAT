@@ -3,12 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import oat from "../../Assets/Projects/oat.png";
+import amica from "../../Assets/Projects/amica.png";
+
+import knohas from "../../Assets/Projects/knohas.png";
+import citiis from "../../Assets/Projects/citiis.png";
+
+import buildee from "../../Assets/Projects/buildee.png";
 
 function Projects() {
   return (
@@ -24,62 +25,63 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={amica}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Amica"
+              description="All we need is a decent place to live and fun people to share it with. Right?
+              Amica matches you with the best suitable flat according to your requirements as well as with a compatible flatmate based on your personal preferences."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={oat}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Owner And Tenant"
+              description="Owner & Tenant is a Hyderabad based Property Management Company that provides
+              reliable, transparent and an affordable platform to bring together multiple rental and property
+              management services under one single umbrella. Whether you want to expand your real-estate
+              portfolio or add significant value to your investment, owner & tenant is a trusted partner for all
+              your property needs in Hyderabad."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={citiis}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="CMP"
+              description="The CITIIS (City Investments to Innovate, Integrate and Sustain) program is conceptualized
+              to assist Indian cities in implementing urban infrastructure projects that are integrated, innovation
+              driven and sustainable. The selected projects will improve sustainable mobility, increase the
+              amount of public open spaces, implement technology to improve e-governance and drive social
+              and organizational innovation in low-income settlements.
+              "
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={buildee}
+              isBlog={false}
+              title="Simubuildee"
+              description="Buildee is the work of the greatest minds in building sciences and partnerships with market
+              drivers. Buildee enables portfolio owners, utilities and service providers to identify, prioritize, and
+              realize energy efficiency investments through the building lifecycle. Offer a cloud-based and
+              mobile software platform that combines credible engineering intelligence with stakeholder
+              collaboration tools to act on cost-effective retrofit investments and track performance"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={knohas}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="KnohasARK"
+              description="KnoahsARK360 helps both internal (Managers& Associates) and external (Client) users
+              analyze business performance within specific business functions and decide on a specific and
+              prompt course of action. It provides actionable insights at glance and helps manage the entire
+              customer contact center environment by Integrating locations, staff, department, tools, data points
+              and process towards making critical decisions."
             />
           </Col>
         </Row>
