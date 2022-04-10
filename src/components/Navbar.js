@@ -93,7 +93,11 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="" target="_blank" rel="noreferrer">
+              <Nav.Link
+                href="https://medium.com/@mahi.sri2868"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
